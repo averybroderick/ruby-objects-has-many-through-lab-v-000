@@ -1,8 +1,8 @@
 class Genre
 
-  def initialize(name, songs)
+  def initialize(name)
     @name = name
-    @songs = songs
+    @songs = []
   end
 
   def add_song(song)
