@@ -8,7 +8,7 @@ class Appointment
   end
 
   def patient
-    @doctor.appointments.map{|appointment| appointment.patient}
+  
   end
 
 end
