@@ -8,6 +8,7 @@ class Appointment
   end
 
   def patient
+    @doctor.patient 
   end
 
 end
