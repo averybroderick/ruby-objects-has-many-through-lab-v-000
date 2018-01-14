@@ -13,4 +13,7 @@ class Artist
     @songs
   end
 
+  def genres
+    @songs.map{|song| song.genre }
+
 end
